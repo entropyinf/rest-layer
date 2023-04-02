@@ -4,7 +4,7 @@ import (
 	"errors"
 	"sort"
 
-	"github.com/rs/rest-layer/schema"
+	"github.com/entropyinf/rest-layer/schema"
 )
 
 var (

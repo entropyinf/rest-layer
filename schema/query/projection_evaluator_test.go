@@ -9,8 +9,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/rs/rest-layer/internal/testutil"
-	"github.com/rs/rest-layer/schema"
+	"github.com/entropyinf/rest-layer/internal/testutil"
+	"github.com/entropyinf/rest-layer/schema"
 )
 
 type resource struct {

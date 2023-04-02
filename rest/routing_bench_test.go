@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/rs/rest-layer/resource"
-	"github.com/rs/rest-layer/schema"
+	"github.com/entropyinf/rest-layer/resource"
+	"github.com/entropyinf/rest-layer/schema"
 )
 
 func BenchmarkFindRoute(b *testing.B) {

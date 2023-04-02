@@ -3,7 +3,7 @@ package jsonschema
 import (
 	"errors"
 
-	"github.com/rs/rest-layer/schema"
+	"github.com/entropyinf/rest-layer/schema"
 )
 
 type objectBuilder schema.Object

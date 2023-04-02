@@ -1,6 +1,6 @@
 package jsonschema
 
-import "github.com/rs/rest-layer/schema"
+import "github.com/entropyinf/rest-layer/schema"
 
 type timeBuilder schema.Time
 

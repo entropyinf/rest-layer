@@ -2,7 +2,7 @@ package openapi
 
 import (
 	"github.com/getkin/kin-openapi/openapi3"
-	"github.com/rs/rest-layer/schema"
+	"github.com/entropyinf/rest-layer/schema"
 	"log"
 	"reflect"
 )

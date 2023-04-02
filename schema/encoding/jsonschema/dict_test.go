@@ -3,7 +3,7 @@ package jsonschema_test
 import (
 	"testing"
 
-	"github.com/rs/rest-layer/schema"
+	"github.com/entropyinf/rest-layer/schema"
 )
 
 func TestDictValidatorEncode(t *testing.T) {

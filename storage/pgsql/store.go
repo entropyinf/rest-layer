@@ -3,8 +3,8 @@ package pgsql
 import (
 	"context"
 	"database/sql"
-	"github.com/rs/rest-layer/resource"
-	"github.com/rs/rest-layer/schema"
+	"github.com/entropyinf/rest-layer/resource"
+	"github.com/entropyinf/rest-layer/schema"
 	"github.com/sirupsen/logrus"
 )
 

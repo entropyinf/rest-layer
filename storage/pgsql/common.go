@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/lib/pq"
-	"github.com/rs/rest-layer/schema"
+	"github.com/entropyinf/rest-layer/schema"
 	"reflect"
 )
 

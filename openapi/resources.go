@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"github.com/getkin/kin-openapi/openapi3"
 	"github.com/jinzhu/inflection"
-	"github.com/rs/rest-layer/resource"
+	"github.com/entropyinf/rest-layer/resource"
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 )

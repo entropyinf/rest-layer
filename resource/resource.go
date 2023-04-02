@@ -7,8 +7,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/rs/rest-layer/schema"
-	"github.com/rs/rest-layer/schema/query"
+	"github.com/entropyinf/rest-layer/schema"
+	"github.com/entropyinf/rest-layer/schema/query"
 )
 
 // Resource holds information about a class of items exposed on the API.

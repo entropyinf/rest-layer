@@ -3,8 +3,8 @@ package mem
 import (
 	"time"
 
-	"github.com/rs/rest-layer/resource"
-	"github.com/rs/rest-layer/schema/query"
+	"github.com/entropyinf/rest-layer/resource"
+	"github.com/entropyinf/rest-layer/schema/query"
 )
 
 // sortableItems is an item slice implementing sort.Interface

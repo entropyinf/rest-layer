@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/rs/rest-layer/resource"
-	"github.com/rs/rest-layer/resource/testing/mem"
-	"github.com/rs/rest-layer/schema"
+	"github.com/entropyinf/rest-layer/resource"
+	"github.com/entropyinf/rest-layer/resource/testing/mem"
+	"github.com/entropyinf/rest-layer/schema"
 )
 
 func TestGetListInvalidQuery(t *testing.T) {

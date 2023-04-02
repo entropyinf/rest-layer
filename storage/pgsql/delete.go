@@ -3,8 +3,8 @@ package pgsql
 import (
 	"context"
 	. "github.com/doug-martin/goqu/v9"
-	"github.com/rs/rest-layer/resource"
-	"github.com/rs/rest-layer/rest"
+	"github.com/entropyinf/rest-layer/resource"
+	"github.com/entropyinf/rest-layer/rest"
 	"github.com/sirupsen/logrus"
 )
 

@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/rs/rest-layer/schema"
+	"github.com/entropyinf/rest-layer/schema"
 )
 
 type referenceCompilerTestCase struct {

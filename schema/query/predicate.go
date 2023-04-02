@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/rs/rest-layer/schema"
+	"github.com/entropyinf/rest-layer/schema"
 )
 
 const (

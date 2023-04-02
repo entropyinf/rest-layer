@@ -4,7 +4,7 @@ import (
 	"context"
 	"database/sql"
 	. "github.com/doug-martin/goqu/v9"
-	"github.com/rs/rest-layer/schema/query"
+	"github.com/entropyinf/rest-layer/schema/query"
 	"github.com/sirupsen/logrus"
 )
 

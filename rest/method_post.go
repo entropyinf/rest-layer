@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/rs/rest-layer/resource"
-	"github.com/rs/rest-layer/schema"
+	"github.com/entropyinf/rest-layer/resource"
+	"github.com/entropyinf/rest-layer/schema"
 )
 
 // listPost handles POST resquests on a resource URL.

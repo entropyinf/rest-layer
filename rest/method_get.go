@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/rs/rest-layer/resource"
+	"github.com/entropyinf/rest-layer/resource"
 )
 
 // listGet handles GET resquests on a resource URL.
