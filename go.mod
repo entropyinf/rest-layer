@@ -1,5 +1,7 @@
 module github.com/rs/rest-layer
 
+go 1.18
+
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/evanphx/json-patch v4.1.0+incompatible
