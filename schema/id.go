@@ -33,6 +33,20 @@ var (
 			Regexp: "^[0-9a-v]{20}$",
 		},
 	}
+
+	// SerialID is a common schema field configuration that generated and
+	// maintained by storage layer.
+	SerialID = Field{
+		Description: "The item's auto increase id",
+		Required:    true,
+		ReadOnly:    true,
+		Filterable:  true,
+		Sortable:    true,
+		Default:     "0",
+		Validator: &String{
+			Regexp: "^[0-9]{1,20}$",
+		},
+	}
 )
 
 // newID returns a new globally unique id using a copy of the mgo/bson

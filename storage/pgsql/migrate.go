@@ -6,7 +6,6 @@ import (
 	"github.com/rs/rest-layer/schema"
 	"github.com/sirupsen/logrus"
 	"log"
-	schemax "mall/pkg/schema"
 	"reflect"
 	"strings"
 )
@@ -40,7 +39,7 @@ func buildCreateTable(s *schema.Schema) (sqlQuery string, sqlParams []any, err e
 	fieldStrings := make([]string, 0, len(s.Fields))
 
 	for fieldName, field := range s.Fields {
-		if fieldName == "id" && reflect.DeepEqual(field, schemax.SerialID) {
+		if fieldName == "id" && reflect.DeepEqual(field, schema.SerialID) {
 			fieldStrings = append(fieldStrings, "id SERIAL")
 			continue
 		}
